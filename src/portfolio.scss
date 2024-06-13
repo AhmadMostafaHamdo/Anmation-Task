@@ -29,11 +29,13 @@
             transition: 2s;
             &:nth-child(1) {
                 bottom: -48%;
-                left: -1%;            
+                left: -1%;  
+                transform: rotate(164.12deg);          
             }
             &:nth-child(2) {
                 left: -7%;
                 top: 1%;        
+                transform: rotate(19.49deg);          
             }
             &:nth-child(3) {
                 left: 10%;
@@ -43,10 +45,12 @@
                 left: 40%;        
             }
             &:nth-child(5) {
+                transform: rotate(40.27deg);          
                 right: -125%;
                 top: 2%;                   
             }
             &:nth-child(6) {
+                transform: rotate(49.04deg);          
                 right: -100%;
                 top: 45%;      
             }

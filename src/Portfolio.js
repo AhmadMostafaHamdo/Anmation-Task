@@ -17,7 +17,9 @@ export default function Portfolio () {
 
         function newFunction() {
           icon1.current.style.left = "50%";
+          icon1.current.style.transform = "rotate(0deg)";          
           icon2.current.style.left = "55%";
+          icon2.current.style.transform = "rotate(0deg)";          
           icon3.current.style.left = "60%";
           icon4.current.style.left = "65%";
           icon5.current.style.left = "70%";
@@ -27,7 +29,9 @@ export default function Portfolio () {
           icon3.current.style.top = "67%";
           icon4.current.style.top = "67%";
           icon5.current.style.top = "67%";
+          icon5.current.style.transform = "rotate(0deg)";          
           icon6.current.style.top = "67%";
+          icon6.current.style.transform = "rotate(0deg)";          
         }
     }
     return (
